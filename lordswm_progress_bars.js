@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         Lordswm progress bars
-// @namespace    https://openuserjs.org/users/spapanik
-// @updateURL    https://openuserjs.org/meta/spapanik/Lordswm_progress_bars.meta.js
+// @namespace    https://github.com/spapanik
 // @version      0.1.1
 // @description  Add progress bars to lordswm
 // @author       spapanik
