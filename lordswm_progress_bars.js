@@ -5,7 +5,7 @@
 // @description  Add progress bars to lordswm
 // @author       spapanik
 // @match        https://www.lordswm.com/home.php
-// @licence      LGPL-3.0-or-later
+// @license      LGPL-3.0-or-later
 // ==/UserScript==
 
 
