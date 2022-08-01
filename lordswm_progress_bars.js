@@ -128,6 +128,7 @@
         'Demon',
         'Dwarf',
         'Tribal',
+        'Pharaoh',
     ];
 
     const bareTerms = [
