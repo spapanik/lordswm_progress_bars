@@ -61,6 +61,7 @@
         ],
         hunter: [0, 16, 60, 180, 400, 700, 1200, 2000, 3000, 4300, 6000, 8000, 10500, 13100, 16000],
         mercenary: [0, 50, 120, 300, 600, 1000, 1500, 2200, 3000, 4000, 5500, 7800, 11000, 14500, 18200, 22200],
+        leader: [80, 180, 300, 440, 600, 780, 990, 1230, 1500, 2200, 3200, 4500, 7000, 11000],
         watcher: [0, 60, 200, 450, 850, 1500, 2700, 4500, 7200, 10500],
         thief: [
             0,
@@ -141,6 +142,7 @@
         "Commanders' guild",
         "Watchers' guild",
         "Adventurers' guild",
+        "Leaders' Guild",
         "Smiths' guild",
         "Enchanters' guild",
         'Weaponsmith',
@@ -210,6 +212,7 @@
     addPercentageBar(getTagByText('span', "Mercenaries' guild"), expArrays.mercenary);
     addPercentageBar(getTagByText('span', "Commanders' guild"), expArrays.commander);
     addPercentageBar(getTagByText('span', "Adventurers' guild"), expArrays.adventurer);
+    addPercentageBar(getTagByText('span', "Leaders' Guild"), expArrays.leader);
     addPercentageBar(getTagByText('span', "Enchanters' guild"), expArrays.enchanter);
     addPercentageBar(getTagByText('span', 'Weaponsmith'), expArrays.enchanterSpecialisation);
     addPercentageBar(getTagByText('span', 'Armorer'), expArrays.enchanterSpecialisation);
