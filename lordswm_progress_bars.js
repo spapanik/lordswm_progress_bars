@@ -187,11 +187,11 @@
         tag.innerHTML = tag.innerHTML.replace(regex, `<span>${term}: $1</span>`);
     }
 
+    a();
     let mainTd = document.getElementsByClassName('wbwhite')[0];
     let mainTr = mainTd.getElementsByTagName('tr')[1];
     let rightTable = mainTr.children[1];
 
-    a();
     let hunterLevel = rightTable.getElementsByTagName('a')[0].textContent;
     rightTable.removeChild(rightTable.children[22]);
     rightTable.innerHTML = rightTable.innerHTML.replace("Hunters' guild:", `Hunters' guild: ${hunterLevel}`);
