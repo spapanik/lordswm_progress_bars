@@ -193,7 +193,7 @@
 
     a();
     let hunterLevel = rightTable.getElementsByTagName('a')[0].textContent;
-    rightTable.removeChild(rightTable.children[20]);
+    rightTable.removeChild(rightTable.children[22]);
     rightTable.innerHTML = rightTable.innerHTML.replace("Hunters' guild:", `Hunters' guild: ${hunterLevel}`);
 
     for (let term of bareTerms) {
