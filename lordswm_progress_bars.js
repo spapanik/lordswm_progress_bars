@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lordswm progress bars
 // @namespace    https://github.com/spapanik
-// @version      0.1.2
+// @version      0.1.3
 // @description  Add progress bars to lordswm
 // @author       spapanik
 // @match        https://www.lordswm.com/home.php
@@ -195,6 +195,10 @@
     let hunterLevel = rightTable.getElementsByTagName('a')[0].textContent;
     rightTable.removeChild(rightTable.children[22]);
     rightTable.innerHTML = rightTable.innerHTML.replace("Hunters' guild:", `Hunters' guild: ${hunterLevel}`);
+    let enchantersGuild = document.getElementById('home_2');
+    enchantersGuild.removeChild(enchantersGuild.children[1]);
+    enchantersGuild.children[0].nextSibling.remove()
+    enchantersGuild.children[0].nextSibling.remove()
 
     for (let term of bareTerms) {
         replaceWithSpan(rightTable, term);
